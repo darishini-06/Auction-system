@@ -1,0 +1,97 @@
+.detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.detail-image-container {
+    flex: 1 1 500px;
+}
+
+.detail-image-container img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.detail-info-container {
+    flex: 1 1 500px;
+}
+
+.detail-info-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.price-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.current-bid {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.current-bid span {
+    color: #28a745;
+}
+
+.bid-form {
+    margin-bottom: 1.5rem;
+}
+
+.bid-input-group {
+    display: flex;
+    align-items: center;
+}
+
+.bid-input-group span {
+    font-size: 1.5rem;
+    padding: 0 10px;
+}
+
+.bid-input-group input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.bid-input-group button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.end-time {
+    color: #6c757d;
+}
+
+.status-message, .error-message {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.error-message {
+    color: #d9534f;
+}
