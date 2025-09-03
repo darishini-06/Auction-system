@@ -2,7 +2,6 @@
 
 from django.urls import re_path
 from . import consumers
-
 websocket_urlpatterns = [
     # This URL pattern directs WebSocket connections for a specific auction
     # to your AuctionConsumer.
